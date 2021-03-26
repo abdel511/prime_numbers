@@ -1,4 +1,4 @@
-while 1 :
+
     number = int(input("\nGive a number to check out : "))
     for i in range(2,(number // 2)+1 ):
         if number % i == 0 :
